@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	background: url('img/2.jpg');                            
+    height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.Title{
+	text-align: center;
+	background-color: #83a95c;
+	padding: 30px;
+	width: 60%;
+	margin: 30px auto;
+	border-radius: 10px;
+
+
+}
+.Title ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+.Title ul li a{
+	text-decoration: none;
+	padding: 25px;
+	font-size: 20px;
+	color: white;
+}
+.Title ul li a:hover{
+	color: black;
+}
+
+.style h1{
+	font-size: 60px;
+	text-transform: uppercase;
+	margin: 30px 0 30px;
+	color: black;
+	text-align: center;
+	font-style: italic; 
+}
+.style p{
+	font-size: 20px;
+	margin: 40px;
+	color: black;
+	text-align: center;
+	font-style: italic;
+}
+.style button{
+	background-color:red;
+	color: white;
+	border: none;
+	padding: 10px 30px;
+	margin: 0px 20px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.style button:hover{
+	background-color: green;
+	cursor: pointer;
+}
+
+.style{
+	text-align: center;
+	background-color: grey;
+	padding: 30px;
+	width: 60%;
+	margin: 30px auto;
+	border-radius: 10px;
+}
+
+
